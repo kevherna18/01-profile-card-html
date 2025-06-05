@@ -1,0 +1,70 @@
+body {
+  /* Set the background color of the entire page */
+  background-color: blueviolet;
+  /* Center all text inside the body */
+  text-align: center;
+  /* Use a clean, modern sans-serif font for the whole page */
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.card {
+  /* Set the background color of the card to white */
+  background: #fff;
+  /* Add a light gray border around the card */
+  border: 2px solid #ddd;
+  /* Slightly round the corners of the card */
+  border-radius: 12px;
+  /* Add space inside the card between the border and content */
+  padding: 2em;
+  /* Limit the card's width for better readability */
+  max-width: 400px;
+  /* Center the card horizontally and add space above and below */
+  margin: 3em auto;
+  /* Add a subtle shadow for a lifted card effect */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.card img {
+  /* Make the image fit nicely in the card */
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: 0.5em;
+}
+
+h1 {
+  /* Make the main heading large */
+  font-size: 3em;
+  /* Set the main heading color to blue */
+  color: blue;
+}
+
+h2 {
+  /* Make the subheading slightly smaller than h1 */
+  font-size: 2em;
+  /* Set the subheading color to red */
+  color: red;
+}
+
+p {
+  /* Increase the paragraph font size for readability */
+  font-size: 1.3em;
+  /* Add more space between lines of text */
+  line-height: 1.7;
+}
+
+/* Style the list of links */
+.card ul {
+  /* Remove default list styling */
+  list-style: none;
+  padding: 0;
+  margin: 1.2em 0 0 0;
+}
+
+.card ul li {
+  /* Add spacing between list items */
+  margin: 0.7em 0;
+}
+
+/* blank stylesheet */
